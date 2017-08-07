@@ -1,0 +1,16 @@
+---
+version: '2'
+services:
+  learnjs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      MIX_ENV: dev
+      AWS_ACCESS_KEY_ID: xxxxxxxxxxxxxxxxxxx
+      AWS_SECRET_ACCESS_KEY: "yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"
+      AWS_REGION: eu-west-1
+    ports:
+      - "9292:9292"
+    volumes:
+      - .:/app

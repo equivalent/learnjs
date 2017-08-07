@@ -1,0 +1,2 @@
+#!/bin/bash
+docker exec -it learnjs_learnjs_1 bash
