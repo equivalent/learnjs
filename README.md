@@ -1,4 +1,11 @@
 
+## my notes:
+
+* http://learnjs.eq8.eu.s3-website-eu-west-1.amazonaws.com
+
+
+
+
 ## Change Log
 
 ### Beta 3 Changes
